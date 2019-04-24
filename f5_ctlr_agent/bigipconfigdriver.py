@@ -697,7 +697,7 @@ def _handle_bigip_config(config):
     host = url.hostname
     port = url.port
     if not port:
-        port = 443
+        port = 8443
 
     return host, port
 
